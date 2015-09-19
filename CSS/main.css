@@ -1,0 +1,194 @@
+/****************Some global attributes****************/
+a {
+    text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+body {
+    margin: 0;
+    background-color: #ffecdc
+}
+
+/************************Header************************/
+#index-header {
+    background-color: #ffb87c;
+}
+#index-header a {
+    color: #a45e00;
+    font-family: 'Rock Salt', cursive; /*'Coming Soon', cursive;*/
+    font-size: 1.5em;
+}
+
+/*Top-Right corner*/
+#reg-log {
+    background-color: #ffa052;
+    text-align: right;
+}
+#reg-log a, #greeting {
+    color: #a45e00;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1em;
+}
+#reg-log a {
+    display: inline-block;
+    margin: 0.2em 1em 0.2em 1em;
+}
+#greeting {
+    display: inline-block;
+    margin: 0.2em 1em 0.2em 1em;
+}
+
+/*navigations*/
+#index-header ul {
+    text-align: center;
+    margin-top: -5em;
+}
+#index-header li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+
+/*logo*/
+#toplogo {
+    position: relative;
+    top: 2em;
+}
+
+/************************Section************************/
+section {
+    margin: 1em 2em 1em 12em;
+}
+
+/*form*/
+.body-title-font {
+	font-family: 'Coming Soon', cursive;
+}
+div.body-title-font input {
+	margin-bottom: 0.5em;
+	padding: 0.3em 0;
+	width: 18em;
+	background-color: #ffe3ac;
+	border: 0;
+}
+input.type-in {
+	text-indent: 0.5em;
+}
+h3.body-title-font {
+	position: relative;
+	left: 3.5em;
+}
+div.body-title-font {
+	width: 16em;
+	margin: auto;
+}
+#submit-form {
+	width: 18em;
+	padding: 0.3em 0;
+	background-color: #ffb95b;
+	border: 0;
+	color: #fff;
+}
+#submit-form:hover {
+	background-color: #ffa052;
+	cursor: pointer;
+}
+
+/*images of products*/
+div.img {
+	margin: 1em 3em 0 3em;
+	padding: 5px;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+}
+
+div.img img {
+	display: inline;
+	margin: 5px;
+}
+/*
+div.img a:hover img {
+	border:1px solid #0000ff;
+}
+*/
+div.desc {
+	text-align: center;
+	font-weight: normal;
+	width: 120px;
+	margin: 5px;
+}
+
+
+div.ingredient {
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+div.ingredient img {
+    width: 80px;
+    margin: 5px;
+}
+#waterimg img{
+    width: 60px;
+    margin: 5px;
+}
+/*
+#waterimg img{
+    width: 80px;
+    margin: 5px;
+}
+#milkimg img{
+    width: 100px;
+    margin: 5px;
+}
+#bubbleimg img{
+    width: 100px;
+    margin: 5px;
+}
+#sugarimg img{
+    width: 100px;
+    margin: 5px;
+}*/
+#showmix {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+#adjust-amount {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    bottom: 100px;
+}
+
+/************************Table************************/
+.zebra {
+  font-family: 'Coming Soon', cursive;
+}
+.zebra {
+  border-collapse: collapse;
+  width: 50%;
+}
+th, td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+tbody tr:nth-child(odd) {
+  background: #ffd9b9;
+}
+tbody tr:nth-child(1) {
+  background: #ffc08c;
+}
+/************************Footer************************/
+footer {
+	clear: both;
+	margin: 1em 1em;
+}
